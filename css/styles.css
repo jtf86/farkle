@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+    background-image: url("../img/campsite.jpg");
+    background-size: cover;
+    font-family: monospace;
+}
+.maxplayers {
+    display: none;
+}
+.header {
+    color: lightgreen;
+}
+.header-dice {
+    width: 25%;
+}
+.signup {
+    color: lightgreen;
+    height: 600px;
+}
