@@ -19,20 +19,23 @@
             <h4 class="text-center text-danger">You have added the maximum number of players</h4>
         </div>
         <div class="signup container" id="playerlist">
-            <form class="newplayer">
+            <form class="newplayer" id="listofplayers">
 
                 <button type="button" class="btn btn-warning" id="addplayer">Add additional player</button>
                 <br>
                 <label for="player1name">Player 1 Name:</label>
-                <input class="form-control"type="text" name="player1name" id="player1names"placeholder="  -- Enter your name --">
-<!-- ADD HERE -->
+                <input class="form-control"type="text" name="player1name" id="player1name"placeholder="  -- Enter your name --">
                 <hr>
                 <br>
                 <div class="text-center">
                     <button type="submit" class="btn btn-success" id="playbutton">Play</button>
                 </div>
-
             </form>
+        </div>
+        <div class="tabletop">
+            <h3>Current Player is <span id="currentplayername"></span></h3>
+            <hr>
+            
         </div>
     </div>
 </body>
